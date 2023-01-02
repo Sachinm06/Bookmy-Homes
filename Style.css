@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Amatic+SC&family=Bebas+Neue&family=Blinker:wght@300;600&family=Cinzel&family=Fira+Sans:wght@100;200;400;500;600&family=Gloria+Hallelujah&family=Londrina+Solid:wght@300&family=Michroma&family=Notable&family=Orbitron&family=Poiret+One&family=Rubik+Vinyl&family=Sevillana&family=Staatliches&family=Taviraj:wght@500&display=swap');
+
+* {
+    margin: 0;
+}
+
+
+.header {
+    padding-top: 0px;
+    padding-left: 100px;
+    background-color: white;
+    width: 100%;
+    height: 120px;
+    font-size: 25px;
+    top: 0px;
+    position: sticky;
+
+}
+
+.logoh1 {
+    font-family: 'Bebas Neue', cursive;
+    padding-left: 100px;
+    padding-top: 9px;
+}
+
+.logospan {
+    color: red;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+.nav {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 48px;
+    left: 660px;
+    font-family: 'Blinker', sans-serif;
+
+}
+
+.navbar:hover {
+    color: red;
+    text-decoration:overline double;
+}
+
+.booknow {
+    position: absolute;
+    left: 1811px;
+    top: 48px;
+    background-color: red;
+    color: white;
+    width: 135px;
+    height: 41px;
+    border: red 1px;
+    font-family: 'Londrina Solid', cursive;
+    font-size: 25px;
+    border-radius: 5px;
+}
+
+.booknow:hover {
+    color: red;
+    background-color: white;
+    border: red 3px solid;
+}
+
+.introimg {
+    width: 100%;
+    height: 722px;
+    background-image: url("Images/sara-dubler-Koei_7yYtIo-unsplash.jpg");
+    background-size: cover;
+}
+
+.introdiv {
+    width: 892px;
+    height: 328px;
+    background-color: rgba(19, 16, 16, 0.707);
+    margin-top: -505px;
+    margin-left: 626px;
+    border: white 2px solid;
+    /* box-shadow: 0 4px 8px 0 rgba(235, 17, 17, 0.957), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center; */
+}
+.introdiv:hover{
+    color: rgb(249, 35, 23);
+    text-shadow: 2px 2px 4px #000000;
+    background-color: rgba(255, 255, 255, 0.244);
+}
+
+.introh1 {
+    text-align: center;
+    top: 32px;
+    color: white;
+    font-size: 80px;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+.spanhomes{
+    font-family: 'Gloria Hallelujah', cursive;
+}
+.spanhomes:hover{
+    color: red;
+}
+
+.introspan1 {
+    font-family: 'Notable', sans-serif;
+}
+
+.introspan2 {
+    font-family: 'Bebas Neue', cursive;
+}
+
+
+
+.facilitys {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.col {
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    margin-top: 250px;
+    background-color: rgba(128, 128, 128, 0.245);
+}
+.col:hover{
+    color: rgb(249, 35, 23);
+    text-shadow: 2px 2px 4px #000000;
+    background-color: white;
+   
+}
+
+.wifi {
+    font-size: 80px;
+    margin-left: 100px;
+    
+}
+
+.key {
+    font-size: 80px;
+}
+
+.car {
+    font-size: 80px;
+    margin-left: 10px;
+}
+
+.phone {
+    font-size: 80px;
+}
+
+.fac {
+
+    margin: 36px 37px;
+}
+
+.fach3 {
+    text-align: center;
+    margin-top: 20px;
+    
+}
+.facilitysimages{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.facing{
+background-color: gray;
+width: 100px;
+height: 100px;
+}
