@@ -7,11 +7,11 @@
 
 .header {
     padding-top: 0px;
-    padding-left: 100px;
+    padding-left: 87px;
     background-color: white;
     width: 100%;
-    height: 120px;
-    font-size: 25px;
+    height: 65px;
+    font-size: 16px;
     top: 0px;
     position: sticky;
 
@@ -19,8 +19,8 @@
 
 .logoh1 {
     font-family: 'Bebas Neue', cursive;
-    padding-left: 100px;
-    padding-top: 9px;
+    padding-left: 9px;
+    padding-top: 0px;
 }
 
 .logospan {
@@ -29,32 +29,34 @@
 }
 
 .nav {
-    width: 40%;
+    width: 49%;
     display: flex;
     justify-content: space-between;
     position: absolute;
-    top: 48px;
-    left: 660px;
+    top: 22px;
+    left: 345px;
     font-family: 'Blinker', sans-serif;
 
 }
 
 .navbar:hover {
     color: red;
-    text-decoration:overline double;
+    text-decoration: overline double;
+    transition: width 0.5s;
+
 }
 
 .booknow {
     position: absolute;
-    left: 1811px;
-    top: 48px;
+    left: 1230px;
+    top: 18px;
     background-color: red;
     color: white;
-    width: 135px;
-    height: 41px;
+    width: 96px;
+    height: 29px;
     border: red 1px;
     font-family: 'Londrina Solid', cursive;
-    font-size: 25px;
+    font-size: 15px;
     border-radius: 5px;
 }
 
@@ -66,22 +68,22 @@
 
 .introimg {
     width: 100%;
-    height: 722px;
+    height: 520px;
     background-image: url("Images/sara-dubler-Koei_7yYtIo-unsplash.jpg");
     background-size: cover;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .introdiv {
-    width: 892px;
-    height: 328px;
+    width: 660px;
+    height: 206px;
     background-color: rgba(19, 16, 16, 0.707);
-    margin-top: -505px;
-    margin-left: 626px;
+    margin-top: -374px;
+    margin-left: 389px;
     border: white 2px solid;
-    /* box-shadow: 0 4px 8px 0 rgba(235, 17, 17, 0.957), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    text-align: center; */
 }
-.introdiv:hover{
+
+.introdiv:hover {
     color: rgb(249, 35, 23);
     text-shadow: 2px 2px 4px #000000;
     background-color: rgba(255, 255, 255, 0.244);
@@ -91,13 +93,15 @@
     text-align: center;
     top: 32px;
     color: white;
-    font-size: 80px;
+    font-size: 48px;
     font-family: 'Gloria Hallelujah', cursive;
 }
-.spanhomes{
+
+.spanhomes {
     font-family: 'Gloria Hallelujah', cursive;
 }
-.spanhomes:hover{
+
+.spanhomes:hover {
     color: red;
 }
 
@@ -118,27 +122,26 @@
 }
 
 .col {
-    width: 150px;
-    height: 150px;
-    border-radius: 75px;
-    margin-top: 250px;
-    background-color: rgba(128, 128, 128, 0.245);
-}
-.col:hover{
-    color: rgb(249, 35, 23);
-    text-shadow: 2px 2px 4px #000000;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin-top: 197px;
     background-color: white;
-   
+}
+
+.col:hover {
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .wifi {
-    font-size: 80px;
+    font-size: 63px;
     margin-left: 100px;
-    
+
 }
 
 .key {
-    font-size: 80px;
+    font-size: 72px;
 }
 
 .car {
@@ -152,21 +155,279 @@
 
 .fac {
 
-    margin: 36px 37px;
+    margin: 10px 9px;
 }
 
 .fach3 {
+
+    margin-top: 26px;
+    font-size: 13px;
     text-align: center;
-    margin-top: 20px;
-    
+
 }
-.facilitysimages{
+
+.facilitysimages {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    width: 100%;
+    height: 300px;
+    margin-top: 76px;
 }
-.facing{
-background-color: gray;
-width: 100px;
-height: 100px;
+
+.fimg {
+    width: 250px;
+    height: 250px;
+}
+
+.facimg {
+    width: 250px;
+    height: 250px;
+    background: red;
+    transition: width 1s, height 1s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
+
+.facimg:hover {
+    width: 270px;
+    height: 270px;
+}
+
+.vacationimg {
+    width: 100%;
+    background-color: gray;
+    background-image: url("Images/Screenshot\ 2023-01-02\ at\ 9.35.58\ PM.png");
+    height: 300px;
+    background-size: cover;
+    margin-top: 100px;
+}
+
+.vacbutton {
+    background-color: red;
+    color: white;
+    width: 160px;
+    height: 39px;
+    border: red 1px;
+    font-family: 'Londrina Solid', cursive;
+    font-size: 18px;
+    border-radius: 5px;
+    margin-left: 51px;
+}
+
+.vacbutton:hover {
+    color: white;
+    background-color: green;
+}
+
+.vach1 {
+    position: absolute;
+    margin-top: -222px;
+    margin-left: 45px;
+    color: white;
+}
+
+.vach4 {
+    margin-top: -154px;
+    margin-left: 49px;
+    color: white;
+}
+
+.vacpb {
+    margin-top: 1px;
+    margin-left: 51px;
+}
+
+.services {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.ser {
+    width: 300px;
+    height: 550px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.ser:hover {
+    background-color: rgba(95, 149, 188, 0.117);
+
+}
+
+.serimg {
+    width: 300px;
+    height: 275px;
+}
+
+.serh2 {
+    padding-left: 10px;
+    font-family: 'Blinker', sans-serif;
+}
+
+.serp {
+    padding: 10px;
+    text-align: justify;
+}
+
+.btndiv {
+    padding-left: 10px;
+
+}
+
+.serbtn {
+    border-radius: 10px;
+    background-color: green;
+    color: white;
+}
+
+.serbtn:hover {
+    background-color: white;
+    color: green;
+    border: green 2px solid;
+
+}
+
+.serimg-2 {
+    margin-top: 16px;
+}
+
+.serimg-4 {
+    margin-top: 16px;
+}
+
+.serh2 {
+    padding-top: 10px;
+}
+
+.serp {
+    font-family: 'Blinker', sans-serif;
+}
+
+.cusfeed {
+    border-radius: 20px;
+    border: 2px solid black;
+    background-color: black;
+    width: 1207px;
+    height: 300px;
+    margin-top: 100px;
+    margin-left: 120px;
+}
+
+.cusfeedin {
+    width: 1207px;
+    height: 126px;
+    border-radius: 20px;
+    border: rgba(255, 0, 0, 0.781) 2px solid;
+    background-color: rgba(255, 0, 0, 0.781);
+    margin-top: 22px;
+    margin-left: -2px;
+}
+
+.feedh3 {
+    color: white;
+    padding: 10px;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.feedimg {
+    width: 100px;
+    height: 100px;
+    margin-left: 200px;
+    margin-top: 10px;
+}
+
+.fimgh2 {
+    color: white;
+    margin-top: -66px;
+    margin-left: 328px;
+    font-size: 22px;
+}
+
+.fimgp {
+    color: rgba(255, 255, 255, 0.489);
+    margin-top: 6px;
+    margin-left: 328px;
+    font-size: 17px;
+}
+
+.spediv {
+    margin-top: 100px;
+    width: 1207px;
+    height: 850px;
+    margin-left: 120px;
+}
+
+.spe1 {
+    width: 600px;
+    height: 400px;
+}
+
+.spe2 {
+    width: 1207px;
+    height: 400px;
+    margin-top: 50px;
+}
+
+.speimg {
+    width: 600px;
+    height: 400px;
+    transition: width 1s, height 1s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.speimg:hover{
+    width:610px;
+    height: 410px;
+}
+
+.speh1 {
+    margin-top: 34px;
+    margin-left: 32px;
+}
+
+.spep {
+    margin-top: 34px;
+    margin-left: 32px;
+}
+
+.spe01 {
+    width: 600px;
+    height: 400px;
+}
+
+.spediv1 {
+    width: 1207px;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.spediv01 {
+    margin-top: 50px;
+}
+
+.spebtndiv {
+    margin: 30px;
+}
+
+.spebtn {
+    height: 40px;
+    background-color: white;
+    color: red;
+    border: red 2px solid;
+    border-radius: 10px;
+}
+
+.spebtn:hover {
+    background-color: red;
+    color: white;
+}
+.footdiv{
+    width: 100%;
+    height: 500px;
+    margin-top: 80px;
+    background-color: rgb(11, 11, 67);
 }
