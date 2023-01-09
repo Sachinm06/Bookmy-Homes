@@ -73,7 +73,8 @@
     background-size: cover;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.introvid{
+
+.introvid {
     position: absolute;
     right: 0;
     bottom: 204px;
@@ -140,7 +141,7 @@
 
 .col:hover {
     background-color: white;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 rgba(63, 66, 63, 0.2), 0 6px 20px 0 rgba(68, 72, 69, 0.19);
 }
 
 .wifi {
@@ -438,7 +439,86 @@
 
 .footdiv {
     width: 100%;
-    height: 500px;
+    height: 420px;
     margin-top: 80px;
     background-color: rgb(11, 11, 67);
+}
+
+.footicons {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding-top: 80px;
+    justify-content: center;
+    gap: 4rem;
+    font-size: 30px;
+}
+.footnav{
+    padding-top: 60px;
+}
+
+.footnav a {
+    color: white;
+    text-decoration: none;
+    display: flexbox;
+    justify-content: center;
+    text-align: center;
+    padding-left: 100px;
+}
+.footnav a:hover{
+    color: red;
+}
+.footadd{
+    color: rgb(237, 5, 5);
+    padding-top: 30px;
+    font-size: 20px;
+    justify-content: center;
+    display: flex;
+}
+.footadd i{
+    width: 190px;
+}
+.footadd span{
+    color: white;
+    font-size: 15px;
+}
+.footsub{
+    padding-top: 30px;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.footsub p{
+color: white;
+padding-bottom: 20px;
+}
+.footsub input{
+    width: 400px;
+    height: 30px;
+    border-radius: 10px;
+}
+.footsub button{
+    width: 150px;
+    height: 35px;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+    border: red 2px solid;
+
+}
+.footsub button:hover{
+    background-color: rgba(200, 36, 36, 0.608);
+    color: white;
+    border: rgba(200, 36, 36, 0.608) 2px solid;
+}
+.footcopy{
+    background-color:rgba(4, 4, 14, 0.439) ;
+    padding-top: 10px;
+    color: rgba(255, 255, 255, 0.101);
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+    font-size: 15px;
 }
